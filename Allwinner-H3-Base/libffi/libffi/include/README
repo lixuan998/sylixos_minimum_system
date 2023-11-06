@@ -1,0 +1,39 @@
+export CFLAGS='-DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network'
+export CC=arm-sylixos-eabi-gcc
+./configure --host=arm-eabi-linux
+
+export CFLAGS='-march=mips32 -EL -DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network -I/home/user/libffi/libsylixos/SylixOS/include/arch/mips'
+export CC=mips-sylixos-elf-gcc
+./configure --host=mips-elf-linux
+
+export CFLAGS='-march=mips64 -mabi=64 -EL -DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network -I/home/user/libffi/libsylixos/SylixOS/include/arch/mips'
+export CC=mips64-sylixos-elf-gcc
+./configure --host=mips64-elf-linux
+
+export CFLAGS='-DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network'
+export CC=ppc-sylixos-eabi-gcc
+./configure --host=ppc-eabi-linux
+
+export CFLAGS='-DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network'
+export CC=sparc-sylixos-elf-gcc
+./configure --host=sparc-elf-linux
+
+export CFLAGS='-mlong-double-64 -DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network'
+export CC=i386-sylixos-elf-gcc
+./configure --host=i386-elf-linux
+
+export CFLAGS='-m64 -mno-red-zone -mlong-double-64 -DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network'
+export CC=x86_64-sylixos-elf-gcc
+./configure --host=x86_64-elf-linux
+
+export CFLAGS='-march=rv64imafdc -mabi=lp64d -mcmodel=medany -mno-save-restore -DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network'
+export CC=riscv-sylixos-embed-gcc
+./configure --host=riscv64
+
+export CFLAGS='-mstrict-align -ffixed-x18 -DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network'
+export CC=aarch64-sylixos-elf-gcc
+./configure --host=aarch64
+
+export CFLAGS='-march=loongarch64 -G 0 -mabi=lp64d -mdouble-float -mstrict-align -DSYLIXOS -I/home/user/libffi/libsylixos/SylixOS -I/home/user/libffi/libsylixos/SylixOS/include -I/home/user/libffi/libsylixos/SylixOS/include/network'
+export CC=loongarch64-sylixos-elf-gcc
+./configure --host=loongarch64

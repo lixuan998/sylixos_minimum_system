@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.core.default.config.694089040">
+			<storageModule buildSystemId="org.eclipse.cdt.core.defaultConfigDataProvider" id="org.eclipse.cdt.core.default.config.694089040" moduleId="org.eclipse.cdt.core.settings" name="Configuration">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry">
+		<pathentry kind="mac" name="__GNUC__" path="" value="10"/>
+		<pathentry kind="mac" name="SYLIXOS" path="" value=""/>
+		<pathentry kind="mac" name="__arm__" path="" value=""/>
+		<pathentry base-ref="Allwinner-H3-Base" include="G:/SylixOs_Bsp_Develop_Workspace/Workspace/Allwinner-H3-Base/libsylixos/SylixOS" kind="inc" path="" system="true"/>
+		<pathentry base-ref="Allwinner-H3-Base" include="G:/SylixOs_Bsp_Develop_Workspace/Workspace/Allwinner-H3-Base/libsylixos/SylixOS/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="Allwinner-H3-Base" include="G:/SylixOs_Bsp_Develop_Workspace/Workspace/Allwinner-H3-Base/libcextern/libcextern/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="Allwinner-H3-Base" include="G:/SylixOs_Bsp_Develop_Workspace/RealEvo/compiler/arm-sylixos-toolchain/lib/gcc/arm-sylixos-eabi/10.2.1/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="Allwinner-H3-Base" include="G:/SylixOs_Bsp_Develop_Workspace/RealEvo/compiler/arm-sylixos-toolchain/arm-sylixos-eabi/include" kind="inc" path="" system="true"/>
+		<pathentry base-ref="Allwinner-H3-Base" include="G:/SylixOs_Bsp_Develop_Workspace/Workspace/Allwinner-H3-Base/libsylixos/SylixOS/include/network" kind="inc" path="" system="true"/>
+		<pathentry excluding="obj|dep" kind="out" path="libsylixos/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libsylixos/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libcextern/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libcextern/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libVxWorks/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libVxWorks/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libreadline/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libreadline/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="liblua/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="liblua/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libsqlite3/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libsqlite3/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="pciutils/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="pciutils/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libzmodem/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libzmodem/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libexpat/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libexpat/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libluaplugin/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libluaplugin/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libsunrpc/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libsunrpc/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="unfsd/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="unfsd/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libsalsa/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libsalsa/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libpcap/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libpcap/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="openssl/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="openssl/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libffi/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libffi/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libwayland/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libwayland/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="libgtest/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="libgtest/Release"/>
+		<pathentry excluding="obj|dep" kind="out" path="tcpdump/Debug"/>
+		<pathentry excluding="obj|dep" kind="out" path="tcpdump/Release"/>
+	</storageModule>
+</cproject>
